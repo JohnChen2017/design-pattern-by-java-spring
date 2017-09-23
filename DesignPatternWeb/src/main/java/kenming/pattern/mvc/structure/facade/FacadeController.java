@@ -1,15 +1,14 @@
-package kenming.pattern.mvc.facade;
+package kenming.pattern.mvc.structure.facade;
 
 import java.util.*;
 import org.springframework.stereotype.Controller;  
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import kenming.pattern.mvc.structure.facade.model.*;
 import kenming.pattern.structure.facade.*;
 import kenming.pattern.structure.facade.dto.*;
-import kenming.pattern.mvc.facade.model.*;
 
-  
 @Controller
 @RequestMapping("/facade")
 public class FacadeController {

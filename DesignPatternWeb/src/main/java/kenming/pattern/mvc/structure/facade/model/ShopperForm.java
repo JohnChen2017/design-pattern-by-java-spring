@@ -1,4 +1,4 @@
-package kenming.pattern.mvc.facade.model;
+package kenming.pattern.mvc.structure.facade.model;
 
 import java.util.*;
 import kenming.pattern.structure.facade.dto.*;
