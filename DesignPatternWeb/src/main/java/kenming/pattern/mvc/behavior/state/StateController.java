@@ -7,7 +7,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import kenming.pattern.behavior.state.*;
 
-  
 @Controller
 @RequestMapping("/state")
 public class StateController {
